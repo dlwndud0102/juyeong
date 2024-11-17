@@ -19,8 +19,8 @@ body {
 }
 
 .card {
-    width: 320px;
-    height: 200px;
+    width: 420px;
+    height: 250px;
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.8s ease, box-shadow 0.4s ease;
@@ -44,7 +44,7 @@ body {
     text-align: center;
     backface-visibility: hidden;
     border-radius: 15px;
-    padding: 20px;
+    padding: 30px;
     box-sizing: border-box;
 }
 
