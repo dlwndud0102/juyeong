@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background-color: #fff; /* 배경색을 흰색으로 변경 */
     font-family: 'Poppins', sans-serif;
     color: #fff;
 }
@@ -46,7 +46,7 @@ body {
 }
 
 .card-front {
-    background: linear-gradient(135deg, #2c3e50);
+    background: #2c3e50; /* 카드 앞면 배경색을 #2c3e50으로 설정 */
     color: white;
     display: flex;
     flex-direction: column;
@@ -58,9 +58,9 @@ body {
 }
 
 .card-back {
-    background: linear-gradient(135deg, #2c3e50);
+    background: #2c3e50; /* 카드 뒷면 배경색을 #2c3e50으로 설정 */
     color: white;
-    transform: rotateY(180deg); /* 뒤집힌 상태 */
+    transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
