@@ -45,7 +45,7 @@ body {
 }
 
 .card-front {
-    background: linear-gradient(135deg, #4CAF50, #2E7D32);
+    background: linear-gradient(135deg, #95a5a6);
     color: white;
     display: flex;
     flex-direction: column;
@@ -57,7 +57,7 @@ body {
 }
 
 .card-back {
-    background: linear-gradient(135deg, #FF5722, #BF360C);
+    background: linear-gradient(135deg, #95a5a6);
     color: white;
     transform: rotateY(180deg); /* 뒤집힌 상태 */
     display: flex;
