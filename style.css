@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #bdc3c7, #2c3e50);
     font-family: 'Poppins', sans-serif;
     color: #fff;
 }
@@ -19,7 +19,7 @@ body {
 }
 
 .card {
-    width: 320px;
+    width: 420px;
     height: 200px;
     position: relative;
     transform-style: preserve-3d;
