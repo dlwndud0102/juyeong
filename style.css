@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(135deg, #bdc3c7, #2c3e50);
+    background: linear-gradient(135deg, #667eea, #764ba2);
     font-family: 'Poppins', sans-serif;
     color: #fff;
 }
@@ -19,7 +19,7 @@ body {
 }
 
 .card {
-    width: 420px;
+    width: 320px;
     height: 200px;
     position: relative;
     transform-style: preserve-3d;
@@ -51,12 +51,20 @@ body {
 .card-front {
     background: linear-gradient(135deg, #4CAF50, #2E7D32);
     color: white;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .card-back {
     background: linear-gradient(135deg, #FF5722, #BF360C);
     color: white;
     transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    height: auto; /* 내용에 따라 카드 크기가 늘어나도록 */
 }
 
 .card.flipped {
@@ -66,18 +74,26 @@ body {
 h1 {
     font-size: 2em;
     font-weight: 600;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 p {
     font-size: 1em;
-    margin-top: 10px;
+    margin-top: 5px;
 }
+
 p.email {
     font-size: 1em;
     color: #ddd;
     margin-top: 5px;
 }
+
+.card-back p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
 .contact-btn {
     display: inline-block;
     margin-top: 20px;
