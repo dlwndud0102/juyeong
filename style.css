@@ -13,6 +13,7 @@ body {
     font-family: 'Poppins', sans-serif;
     color: #fff;
 }
+
 .card-container {
     perspective: 1500px;
 }
@@ -21,15 +22,15 @@ body {
     width: 420px;
     height: 250px;
     position: relative;
-    transform-style: preserve-3d; /* 3D 변환을 유지 */
-    transition: transform 0.8s ease, box-shadow 0.4s ease; /* 부드러운 변환 */
+    transform-style: preserve-3d;
+    transition: transform 0.8s ease, box-shadow 0.4s ease;
     cursor: pointer;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
     border-radius: 15px;
 }
 
 .card.flipped {
-    transform: rotateY(180deg); /* 카드가 뒤집히는 애니메이션 */
+    transform: rotateY(180deg);
 }
 
 .card-face {
@@ -40,12 +41,12 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    backface-visibility: hidden; /* 뒷면을 가림 */
+    backface-visibility: hidden;
     border-radius: 15px;
 }
 
 .card-front {
-    background: linear-gradient(135deg, #95a5a6);
+    background-color: #95a5a6;  /* 카드 앞면 배경을 #95a5a6 색으로 변경 */
     color: white;
     display: flex;
     flex-direction: column;
@@ -57,9 +58,9 @@ body {
 }
 
 .card-back {
-    background: linear-gradient(135deg, #95a5a6);
+    background-color: #95a5a6;  /* 카드 뒷면 배경을 #95a5a6 색으로 변경 */
     color: white;
-    transform: rotateY(180deg); /* 뒤집힌 상태 */
+    transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -68,6 +69,7 @@ body {
     padding: 20px;
     box-shadow: inset 0 -2px 4px rgba(0, 0, 0, 0.2);
 }
+
 .card-front img {
     width: 80px;
     height: 80px;
@@ -88,24 +90,12 @@ body {
     margin-top: 5px;
 }
 
-.card-back {
-    background: linear-gradient(135deg, #95a5a6);
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    border-radius: 15px;
-    padding: 20px;
-    box-shadow: inset 0 -2px 4px rgba(0, 0, 0, 0.2);
-}
-
 .card-back .strengths {
     font-size: 1.2em;
     line-height: 1.5;
     margin-bottom: 15px;
 }
+
 .contact-btn {
     display: inline-block;
     margin-top: 20px;
