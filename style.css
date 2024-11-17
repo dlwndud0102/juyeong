@@ -66,13 +66,18 @@ body {
 h1 {
     font-size: 2em;
     font-weight: 600;
+    margin-bottom: 5px;
 }
 
 p {
     font-size: 1em;
     margin-top: 10px;
 }
-
+p.email {
+    font-size: 1em;
+    color: #ddd;
+    margin-top: 5px;
+}
 .contact-btn {
     display: inline-block;
     margin-top: 20px;
