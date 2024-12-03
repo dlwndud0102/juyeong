@@ -6,27 +6,29 @@
     <title>Digital Card</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <div class="card-container">
-        <div class="card">
-            <div class="card-face card-front">
-                <img src="profile.jpg" alt="Profile Picture">
-                <h1>이주영</h1>
-                <p>⚙️ 반도체공학 기술자</p>
-                <p>📧 dlwndud0102@gmail.com</p>
+    <div class="card" onclick="flipCard()">
+        <div class="card-face card-front">
+            <img src="profile.jpg" alt="Profile Picture">
+            <h1>이주영</h1>
+            <p>🛠️ 반도체공학 기술자</p>
+            <p>📧 dlwndud0102@gmail.com</p>
+        </div>
+        <div class="card-face card-back">
+            <div class="strengths">
+                <p>나의 이력:</p>
+                <ul>
+                    <li>- 다양한 프로젝트 참여</li>
+                    <li>- 다양한 수상경력</li>
+                </ul>
             </div>
-            <div class="card-face card-back">
-                <div class="strengths">
-                    <p>나의 이력:</p>
-                    <ul>
-                        <li>- 다양한 프로젝트 참여</li>
-                        <li>- 다양한 수상경력</li>
-                    </ul>
-                </div>
-                <a href="mailto:dlwndud0102@gmail.com" class="contact-btn">Get in Touch</a>
-            </div>
+            <a href="mailto:dlwndud0102@gmail.com" class="contact-btn">Get in Touch</a>
         </div>
     </div>
+</div>
+    <script src="script.js"></script>
 </body>
 </html>
