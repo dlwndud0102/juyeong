@@ -9,7 +9,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #fff; /* 배경색을 흰색으로 변경 */
+    background-image: url('background.jpg'); /* 배경 이미지를 설정 */
+    background-size: cover; /* 이미지가 화면에 꽉 차도록 */
+    background-position: center; /* 이미지의 중심을 화면에 맞춤 */
     font-family: 'Poppins', sans-serif;
     color: #fff;
 }
